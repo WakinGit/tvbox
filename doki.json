@@ -216,12 +216,6 @@
             "filterable": 0
         },
         {
-            "key": "cntv",
-            "name": "央视",
-            "type": 3,
-            "api": "./js/cntv_lm.js"
-        },
-        {
             "key": "Wexconfig",
             "name": "🌝东辰扫码┃配置",
             "type": 3,
