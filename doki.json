@@ -216,11 +216,10 @@
             "filterable": 0
         },
         {
-            "spider": "./jar/dokilwss.jar",
-            "wallpaper": "https://api.nguaduot.cn/netbian/random",
-            "sites": [
-                {"key": "cntv","name": "猫丨央视","type": 3,"api": "./js/cntv_lm.js"}
-            ]
+            "key": "cntv",
+            "name": "央视",
+            "type": 3,
+            "api": "./js/cntv_lm.js"
         },
         {
             "key": "Wexconfig",
@@ -3557,9 +3556,11 @@
                 "有趣",
                 "有 趣",
                 "英皇体育",
+                "全中文AV在线",
                 "澳门皇冠赌场",
                 "哥哥快来",
                 "美女荷官",
+                "裸聊",
                 "新片首发",
                 "UUE29"
             ]
