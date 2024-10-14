@@ -3,82 +3,84 @@
     "wallpaper": "https://api.nguaduot.cn/netbian/random",
     "lives": [
         {
-            "name": "TTLive",
-            "boot": false,
+            "name": "电影",
             "type": 0,
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722589153126/movie.txt",
+            "playerType": 2
         },
         {
-            "name": "SYLive",
+            "name": "live-1",
             "type": 0,
-            "url": "https://gitee.com/shangyunvip/yscdx/raw/master/lives/sylive.txt",
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:14:36/1720581276347/44199311/li.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
         },
         {
-            "name": "ZHLive",
+            "name": "live-2",
             "type": 0,
-            "url": "https://objectstorage.ap-chuncheon-1.oraclecloud.com/n/axghnvpkxk5c/b/vircloud/o/ipv6.txt",
+            "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1715581924675/live2.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
         },
         {
-            "name": "HDLive",
+            "name": "live-3",
+            "boot": true,
             "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/ctsfork/web/main/iptv/hd-live-all.txt",
+            "url": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1716213337323/live3.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
         },
         {
-            "name": "TVLive",
-            "type": 0,
-            "url": "https://gitlab.com/dokiss1/tvbox/-/raw/master/lib/TVlive.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "name": "smart",
+            "type": 3,
+            "api": "csp_Smart",
+            "ext": "https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1722499582430/smart.txt"
         },
         {
-            "name": "FMLive",
+            "name": "fanmingming",
             "type": 0,
-            "url": "https://m3u.ibert.me/txt/fmml_ipv6.txt",
+            "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "timeout": 10
         },
         {
-            "name": "DXLive",
+            "name": "gat",
             "type": 0,
-            "url": "https://mirror.ghproxy.com/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+            "url": "http://127.0.0.1:9978/proxy?do=live&url=https://cik03-cos.7moor-fs1.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cb93309b-a570-488f-8b3b-ccdfd5dea98a/2024-07-10/2024-07-10_11:14:39/1720581279163/48264602/gat.txt",
             "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "YCLive",
-            "type": 0,
-            "url": "https://m3u.ibert.me/txt/ycl_iptv.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "YGLive",
-            "type": 0,
-            "url": "https://m3u.ibert.me/txt/y_g.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPTV4",
-            "type": 0,
-            "url": "https://wzsvip.github.io/ipv4.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
-        },
-        {
-            "name": "IPTV6",
-            "type": 0,
-            "url": "https://wzsvip.github.io/ipv6.txt",
-            "playerType": 1,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+            "logo": "https://epg.112114.xyz/logo/{name}.png",
+            "timeout": 10,
+            "catchup": {
+                "days": "7",
+                "type": "append",
+                "regex": "/PLTV/",
+                "source": "?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+            }
         }
     ],
     "sites": [
