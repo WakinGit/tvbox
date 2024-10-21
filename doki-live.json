@@ -1,5 +1,6 @@
 {
-     "lives": [
+    "spider": "https://gitlab.com/dokiss1/tvbox/-/raw/master/jar/dokilwss.jar",
+    "lives": [
         {
             "name": "电影",
             "type": 0,
