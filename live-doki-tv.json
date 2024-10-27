@@ -5,8 +5,8 @@
             "type": 0,
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/live.txt",
             "playerType": 1,
-            "boot": true,
-            "epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
+            "boot": true
+            //"epg": "http://epg.112114.eu.org/?ch={name}&date={date}"
         },
         {
             "name": "SYLive",
